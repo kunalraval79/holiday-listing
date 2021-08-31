@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav__container {
+  height: 105px;
+  width: 100%;
+  background-color: rgb(244, 242, 242);
+  border: 1px solid rgb(235, 233, 233);
+  position: sticky;
+}
+
+.navbar__list {
+  display: flex;
+}
+
+.left__nav {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.left__nav > * {
+  width: 20px;
+  height: 20px;
+  padding: 33px 5px;
+  cursor: pointer;
+}
+
+.right__nav {
+  width: 50%;
+  text-align: right;
+}
+
+.right__nav > * {
+  width: 24px;
+  height: 24px;
+  padding: 33px 10px;
+  cursor: pointer;
+}
+
+.navbar_leftlist__icon {
+  width: 40px;
+  height: 40px;
+  
+}

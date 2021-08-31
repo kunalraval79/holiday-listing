@@ -1,0 +1,104 @@
+.main__container{
+    width: 1731px;
+    height: 605px;
+}
+
+.main__navbar{
+    height: 105px;
+    display: flex;
+}
+
+.main__leftnav{
+    width: 50%;
+    align-items: center;
+    margin-top: 56px;
+    margin-left: 80px;
+}
+
+.main__leftnav > h2{
+    margin-bottom: 12px;
+}
+
+.main__rightnav{
+   margin-top: 56px;
+   display: flex;
+   align-items: center;
+   padding-left: 300px;
+}
+
+.main__rightnav > *{
+    width: 25px;
+    margin: 10px;
+}
+
+
+
+.main__p{
+    margin-left: 80px;
+}
+
+/* ----------------------------- */
+
+.main__navbar1{
+    margin-top: 50px;
+    display: flex;
+}
+
+.main__navbar1left{
+    width: 50%;
+    margin-left: 80px;
+}
+
+
+
+.main__navbar1right{
+    display: flex;
+    /* text-align: right; */
+    padding-left: 250px;
+}
+
+
+.main__navbar1right > *{
+    margin: 10px;
+    
+}
+
+.popup{
+    border: none;
+    background-color: white;
+}
+
+.main__navbarright1__click{
+    color: #FEA101;
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* ---------------------------- */
+
+table, th, td {
+  border: 1px solid rgb(134, 114, 114);
+  padding: 8px;
+  
+}
+
+table{
+    border-collapse: collapse;
+    margin: 30px 80px;
+    width: 80%;
+}
+
+th{
+  padding: 8px;
+  text-align: left;
+}
+
+td{
+    padding: 8px 8px; 
+}
+
+.main__borderless{
+    border-left: hidden;
+    border-right: hidden;
+    padding: 15px 10px;
+}

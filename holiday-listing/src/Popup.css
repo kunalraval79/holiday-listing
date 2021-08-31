@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.pop__up{
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pop__up_inner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    border: 1px white;
+    border-radius: 10px;
+    margin: 224px 350px;
+}
+
+.popup__content{
+    margin-top: 35px;
+    margin-left: 48px;
+}
+
+.close_btn{
+    position: absolute;
+    top:16px;
+    right: 16px;
+
+}
+
+.popup__content__flex{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+.popup__content__flexleft{
+    width: 50%;
+    margin-right: 50px;
+}
+
+.popup__content__flexleft > div{
+    margin-bottom: 49px;
+}
+
+.popup__content__flexleft__Name > input{
+    border: none
+} 
+
+.popup__content__flexleft_date > input{
+    border: none;
+}
+
+.popup__content__flexleft__type > select{
+    border: none;
+}
+
+
+.popup__content__flexleft_date{
+    display: flex;
+}
+
+.vl {
+  border-left: 1px solid grey;
+  height: 300px;
+}
+
+.popup__content__flexright{
+    width: 50%;
+    margin-left: 20px;
+}
+
+
+
+
+
+
